@@ -7,13 +7,13 @@ import { emails } from "@/lib/farm-data";
 export const Route = createFileRoute("/email")({
   head: () => ({
     meta: [
-      { title: "Smart Email Generator & AI Inbox — FarmFlow" },
+      { title: "Smart Email Generator & AI Inbox — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Write professional farm emails with AI, categorise your inbox by priority and get draft reply suggestions.",
       },
-      { property: "og:title", content: "Smart Email Generator & AI Inbox — FarmFlow" },
+      { property: "og:title", content: "Smart Email Generator & AI Inbox — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "AI email writing, inbox triage and reply suggestions for farm managers.",
@@ -44,7 +44,7 @@ function EmailPage() {
   const { run, loading, output, error } = useFarmAi();
 
   const system =
-    "You are FarmFlow AI's email writer for a South African farm manager. Return only the email: subject line, greeting, body and sign-off as 'Farm Manager'. No commentary.";
+    "You are AI Workplace Assistant's email writer for a South African farm manager. Return only the email: subject line, greeting, body and sign-off as 'Farm Manager'. No commentary.";
 
   const generate = () =>
     run(

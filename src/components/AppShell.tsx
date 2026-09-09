@@ -51,9 +51,10 @@ export function AppShell({
         </span>
         <span className="leading-tight">
           <span className="block font-display text-base font-semibold text-sidebar-foreground">
-            FarmFlow
+            AI Workplace
           </span>
-          <span className="block text-xs text-muted-foreground">AI Workplace</span>
+          <span className="block text-xs text-muted-foreground">Assistant for Farmers</span>
+
         </span>
       </Link>
 

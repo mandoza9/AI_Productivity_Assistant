@@ -7,13 +7,13 @@ import { tasks as seedTasks, type Priority } from "@/lib/farm-data";
 export const Route = createFileRoute("/tasks")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner & Scheduler — FarmFlow" },
+      { title: "AI Task Planner & Scheduler — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Plan daily, weekly and monthly farm work with AI prioritisation for crops, livestock and admin tasks.",
       },
-      { property: "og:title", content: "AI Task Planner & Scheduler — FarmFlow" },
+      { property: "og:title", content: "AI Task Planner & Scheduler — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "AI-prioritised daily, weekly and monthly farm schedules.",

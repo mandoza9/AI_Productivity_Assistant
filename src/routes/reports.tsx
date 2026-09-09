@@ -17,13 +17,13 @@ import { financeData, milkData, yieldData } from "@/lib/farm-data";
 export const Route = createFileRoute("/reports")({
   head: () => ({
     meta: [
-      { title: "Reports & Analytics — FarmFlow AI Workplace" },
+      { title: "Reports & Analytics — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Crop yield, milk production, livestock health, expenses and revenue reports with PDF, Excel and email export.",
       },
-      { property: "og:title", content: "Reports & Analytics — FarmFlow" },
+      { property: "og:title", content: "Reports & Analytics — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Visual farm reports for yield, milk production, expenses and revenue.",

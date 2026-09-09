@@ -5,13 +5,13 @@ import { AppShell } from "@/components/AppShell";
 export const Route = createFileRoute("/settings")({
   head: () => ({
     meta: [
-      { title: "Settings — FarmFlow AI Workplace" },
+      { title: "Settings — AI Workplace Assistant" },
       {
         name: "description",
         content:
-          "Manage your farm profile, connected email and calendar accounts, and reminder channels in FarmFlow.",
+          "Manage your farm profile, connected email and calendar accounts, and reminder channels in AI Workplace Assistant.",
       },
-      { property: "og:title", content: "Settings — FarmFlow" },
+      { property: "og:title", content: "Settings — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Farm profile, integrations and reminder preferences.",

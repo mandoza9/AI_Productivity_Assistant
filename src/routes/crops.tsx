@@ -6,13 +6,13 @@ import { cropAlerts, crops } from "@/lib/farm-data";
 export const Route = createFileRoute("/crops")({
   head: () => ({
     meta: [
-      { title: "Crop Management — FarmFlow AI Workplace" },
+      { title: "Crop Management — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Track crop types, planting dates, irrigation, growth stages and harvest dates with AI fertiliser and disease alerts.",
       },
-      { property: "og:title", content: "Crop Management — FarmFlow" },
+      { property: "og:title", content: "Crop Management — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Growth stages, irrigation plans and AI crop recommendations in one place.",
