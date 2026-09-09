@@ -33,7 +33,7 @@ const examples = [
 ];
 
 function ResearchPage() {
-  const [q, setQ] = useState(examples[0]);
+  const [q, setQ] = useState<string>(examples[0] ?? "");
   const { run, loading, output, error } = useFarmAi();
 
   const ask = (question: string) => {
