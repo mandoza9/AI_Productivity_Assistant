@@ -6,13 +6,13 @@ import { livestock } from "@/lib/farm-data";
 export const Route = createFileRoute("/livestock")({
   head: () => ({
     meta: [
-      { title: "Livestock Management — FarmFlow AI Workplace" },
+      { title: "Livestock Management — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Track animal IDs, breeds, health status and vaccination records with automatic AI reminders for vet visits and breeding cycles.",
       },
-      { property: "og:title", content: "Livestock Management — FarmFlow" },
+      { property: "og:title", content: "Livestock Management — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Animal records, health status and AI reminders for vaccinations and breeding.",

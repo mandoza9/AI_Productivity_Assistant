@@ -30,7 +30,7 @@ export const askFarmAi = createServerFn({ method: "POST" })
         model: gateway("google/gemini-3.8-flash"),
         system:
           data.system ??
-          "You are FarmFlow AI, an assistant for crop and livestock farm managers in South Africa. Be practical, concise and use clear headings and bullet points.",
+          "You are AI Workplace Assistant, an assistant for crop and livestock farm managers in South Africa. Be practical, concise and use clear headings and bullet points.",
         messages: data.messages,
       });
       const text = await result.text;

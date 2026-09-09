@@ -6,13 +6,13 @@ import { AiOutput, useFarmAi } from "@/components/AiBox";
 export const Route = createFileRoute("/meetings")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summariser — FarmFlow AI Workplace" },
+      { title: "Meeting Notes Summariser — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Turn long farm meeting notes into a summary with key decisions, action items and deadlines.",
       },
-      { property: "og:title", content: "Meeting Notes Summariser — FarmFlow" },
+      { property: "og:title", content: "Meeting Notes Summariser — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Paste or upload farm meeting notes and get decisions, actions and deadlines.",

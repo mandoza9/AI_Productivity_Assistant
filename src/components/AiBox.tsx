@@ -42,7 +42,7 @@ export function AiOutput({
     <div className="surface min-h-56 p-5">
       {loading && (
         <p className="flex items-center gap-2 text-sm text-muted-foreground">
-          <Loader2 className="size-4 animate-spin" /> FarmFlow AI is working…
+          <Loader2 className="size-4 animate-spin" /> AI Workplace Assistant is working…
         </p>
       )}
       {!loading && error && (

@@ -6,13 +6,13 @@ import { AiOutput, useFarmAi } from "@/components/AiBox";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant for Farmers — FarmFlow" },
+      { title: "AI Research Assistant for Farmers — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Research feeding practices, crop diseases, market prices, regulations and agricultural trends with AI summaries and recommendations.",
       },
-      { property: "og:title", content: "AI Research Assistant for Farmers — FarmFlow" },
+      { property: "og:title", content: "AI Research Assistant for Farmers — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Summaries, key insights and recommendations on any farming question.",

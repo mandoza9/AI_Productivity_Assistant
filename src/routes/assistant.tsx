@@ -9,13 +9,13 @@ import { crops, livestock, tasks } from "@/lib/farm-data";
 export const Route = createFileRoute("/assistant")({
   head: () => ({
     meta: [
-      { title: "AI Assistant — FarmFlow AI Workplace" },
+      { title: "AI Assistant — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Your farm copilot: create feeding schedules, draft emails, summarise notes and review overdue tasks in a chat.",
       },
-      { property: "og:title", content: "AI Assistant — FarmFlow" },
+      { property: "og:title", content: "AI Assistant — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Chat with your farm copilot to plan work, draft emails and get answers.",
@@ -43,7 +43,7 @@ function AssistantPage() {
     {
       role: "assistant",
       content:
-        "Sawubona Asiphile! I'm your FarmFlow copilot. Ask me to plan work, draft an email, summarise notes or check what's overdue.",
+        "Sawubona Asiphile! I'm your AI Workplace Assistant copilot. Ask me to plan work, draft an email, summarise notes or check what's overdue.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -58,7 +58,7 @@ function AssistantPage() {
     setLoading(true);
     const res = await ask({
       data: {
-        system: `You are FarmFlow AI, the copilot inside a farm workplace app for Asiphile at Ubuhle Farms, KwaZulu-Natal. Farm context — open tasks: ${tasks
+        system: `You are AI Workplace Assistant, the copilot inside a farm workplace app for Asiphile at Ubuhle Farms, KwaZulu-Natal. Farm context — open tasks: ${tasks
           .filter((t) => !t.done)
           .map((t) => `${t.title} (${t.priority})`)
           .join("; ")}. Crops: ${crops
@@ -142,7 +142,7 @@ function AssistantPage() {
               }
             }}
             rows={2}
-            placeholder="Ask FarmFlow AI anything about your farm…"
+            placeholder="Ask AI Workplace Assistant anything about your farm…"
             className="flex-1 resize-none bg-transparent px-3 py-2 text-sm outline-none"
           />
           <button

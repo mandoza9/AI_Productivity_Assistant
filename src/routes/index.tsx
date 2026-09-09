@@ -6,13 +6,13 @@ import { dailySummary, emails, farmer, kpis, reminders, tasks, weather } from "@
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "FarmFlow AI Workplace — Dashboard for Crop & Livestock Farms" },
+      { title: "AI Workplace Assistant — Dashboard for Crop & Livestock Farms" },
       {
         name: "description",
         content:
           "Run your farm from one AI workplace: tasks, calendar, email, livestock, crops, meeting notes and reports.",
       },
-      { property: "og:title", content: "FarmFlow AI Workplace — Farm Dashboard" },
+      { property: "og:title", content: "AI Workplace Assistant — Farm Dashboard" },
       {
         property: "og:description",
         content:

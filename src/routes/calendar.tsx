@@ -6,13 +6,13 @@ import { events as seedEvents, type CalEvent } from "@/lib/farm-data";
 export const Route = createFileRoute("/calendar")({
   head: () => ({
     meta: [
-      { title: "Farm Calendar — FarmFlow AI Workplace" },
+      { title: "Farm Calendar — AI Workplace Assistant" },
       {
         name: "description",
         content:
           "Month, week and day views of crop, livestock, meeting and AI-scheduled farm activities with drag and drop.",
       },
-      { property: "og:title", content: "Farm Calendar — FarmFlow" },
+      { property: "og:title", content: "Farm Calendar — AI Workplace Assistant" },
       {
         property: "og:description",
         content: "Colour-coded farm calendar with Outlook and Google Calendar sync.",
